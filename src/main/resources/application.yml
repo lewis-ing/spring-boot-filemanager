@@ -1,0 +1,26 @@
+server:
+  port: 8888
+  
+config:
+  filemanager:
+    repo-base-path: D:/mes
+    only-folders: false
+    #ACTION
+    allowed-actions:
+      upload: true
+      rename: true
+      move: true
+      copy: true
+      edit: true
+      change-permissions: true
+      compress: true
+      extract: true
+      download: true
+      download-multiple: true
+      remove: true
+      create-folder: true
+      #UI
+      compress-chooseName: true
+      preview: true
+      pick-files: true
+      pick-folders: true
